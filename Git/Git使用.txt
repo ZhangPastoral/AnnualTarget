@@ -1,32 +1,26 @@
-1.°²×°Git
-2.½øÈëgithub zhang_q_c@hotmail.com   zhanglao3
+1.å®‰è£…Git
+2.è¿›å…¥github zhang_q_c@hotmail.com   zhanglao3
 
-3.git ÅäÖÃ
-
+3.git é…ç½®
 git config --globa user.name "ZhangPastoral"
-
 git config --globa user.eamil zhang_q_c@hotmail.com
 
-
-4.½øÈëgithub£¬ĞÂ½¨²Ö¿â  ÌîĞ´²Ö¿âÃû Ö±½Ó´´½¨
-ÕÒµ½²Ö¿â£¬¸´ÖÆsshµØÖ·
+4.è¿›å…¥githubï¼Œæ–°å»ºä»“åº“  å¡«å†™ä»“åº“å ç›´æ¥åˆ›å»º
+æ‰¾åˆ°ä»“åº“ï¼Œå¤åˆ¶sshåœ°å€
 
 5.
-git Éú³Éssh
-
+git ç”Ÿæˆssh
 ssh-keygen -t rsa -C "zhang_q_c@hotmail.com"
+è¿›å…¥github ï¼Œè¿›å…¥setting æ‰¾åˆ°ssh ï¼Œå°†å…¥sshç§˜é’¥
 
-½øÈëgithub £¬½øÈësetting ÕÒµ½ssh £¬½«ÈësshÃØÔ¿
-
-6.cd ÏîÄ¿ÎÄ¼ş
-
+6.cd é¡¹ç›®æ–‡ä»¶
 git init 
-
-git remote add origin ÉÏÃæ»ñµÃµÄsshµØÖ·
-
 git add .
-
-git commit -M "Ìá½»¼ÇÂ¼"
-
+git commit -m "æäº¤è®°å½•"
+git remote add origin ä¸Šé¢è·å¾—çš„sshåœ°å€
 git push origin master
 
+7.ä»¥åæ¯æ¬¡æäº¤å°±ç›´æ¥
+git add.
+git commit -m "æäº¤è®°å½•"
+git push origin master
