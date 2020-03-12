@@ -1,0 +1,32 @@
+1.安装Git
+2.进入github zhang_q_c@hotmail.com   zhanglao3
+
+3.git 配置
+
+git config --globa user.name "ZhangPastoral"
+
+git config --globa user.eamil zhang_q_c@hotmail.com
+
+
+4.进入github，新建仓库  填写仓库名 直接创建
+找到仓库，复制ssh地址
+
+5.
+git 生成ssh
+
+ssh-keygen -t rsa -C "zhang_q_c@hotmail.com"
+
+进入github ，进入setting 找到ssh ，将入ssh秘钥
+
+6.cd 项目文件
+
+git init 
+
+git remote add origin 上面获得的ssh地址
+
+git add .
+
+git commit -M "提交记录"
+
+git push origin master
+
