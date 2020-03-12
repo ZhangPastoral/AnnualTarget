@@ -1,4 +1,4 @@
-1.安装Git
+﻿1.安装Git
 2.进入github zhang_q_c@hotmail.com   zhanglao3
 
 3.git 配置
@@ -24,3 +24,10 @@ git push origin master
 git add.
 git commit -m "提交记录"
 git push origin master
+
+
+8.每次拉取远程仓库
+git pull origin master
+
+
+以后使用分支再更新此文件
