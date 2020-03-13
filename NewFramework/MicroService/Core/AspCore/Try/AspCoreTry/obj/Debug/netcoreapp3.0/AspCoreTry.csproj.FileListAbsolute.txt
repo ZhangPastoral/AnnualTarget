@@ -68,3 +68,5 @@ E:\AnnualTarget\NewFramework\MicroService\Core\AspCore\Try\AspCoreTry\obj\Debug\
 E:\AnnualTarget\NewFramework\MicroService\Core\AspCore\Try\AspCoreTry\obj\Debug\netcoreapp3.0\AspCoreTry.csproj.CopyComplete
 E:\AnnualTarget\NewFramework\MicroService\Core\AspCore\Try\AspCoreTry\obj\Debug\netcoreapp3.0\AspCoreTry.dll
 E:\AnnualTarget\NewFramework\MicroService\Core\AspCore\Try\AspCoreTry\obj\Debug\netcoreapp3.0\AspCoreTry.pdb
+e:\AnnualTarget\NewFramework\MicroService\Core\AspCore\Try\AspCoreTry\bin\Debug\netcoreapp3.0\log4net.dll
+e:\AnnualTarget\NewFramework\MicroService\Core\AspCore\Try\AspCoreTry\bin\Debug\netcoreapp3.0\App_Data\log4net.config

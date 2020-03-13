@@ -20,6 +20,7 @@ namespace AspCoreTry
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            Log4NetConfig.Init(configuration);
         }
 
         public IConfiguration Configuration { get; }
@@ -50,6 +51,19 @@ namespace AspCoreTry
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseMiddleware<Log4netMiddleware>();
+
+            // app.Use(async (context, next) =>
+            //     {
+            //         if (context.Request.Path.Value.Contains("test"))
+            //         {
+            //             throw new Exception("中间件异常测试");
+            //         }
+            //         await next();
+            //     });
+
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

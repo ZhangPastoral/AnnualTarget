@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Unity.Microsoft.DependencyInjection;
 
 namespace AspCoreTry
 {
@@ -20,6 +21,7 @@ namespace AspCoreTry
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    webBuilder.UseUnityServiceProvider();
                     webBuilder.UseStartup<Startup>();
                 });
     }

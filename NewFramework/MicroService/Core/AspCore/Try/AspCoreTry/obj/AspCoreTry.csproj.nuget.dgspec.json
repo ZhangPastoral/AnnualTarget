@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AnnualTarget\\NewFramework\\MicroService\\Core\\AspCore\\Try\\AspCoreTry\\AspCoreTry.csproj": {}
+    "e:\\AnnualTarget\\NewFramework\\MicroService\\Core\\AspCore\\Try\\AspCoreTry\\AspCoreTry.csproj": {}
   },
   "projects": {
-    "E:\\AnnualTarget\\NewFramework\\MicroService\\Core\\AspCore\\Try\\AspCoreTry\\AspCoreTry.csproj": {
+    "e:\\AnnualTarget\\NewFramework\\MicroService\\Core\\AspCore\\Try\\AspCoreTry\\AspCoreTry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AnnualTarget\\NewFramework\\MicroService\\Core\\AspCore\\Try\\AspCoreTry\\AspCoreTry.csproj",
+        "projectUniqueName": "e:\\AnnualTarget\\NewFramework\\MicroService\\Core\\AspCore\\Try\\AspCoreTry\\AspCoreTry.csproj",
         "projectName": "AspCoreTry",
-        "projectPath": "E:\\AnnualTarget\\NewFramework\\MicroService\\Core\\AspCore\\Try\\AspCoreTry\\AspCoreTry.csproj",
+        "projectPath": "e:\\AnnualTarget\\NewFramework\\MicroService\\Core\\AspCore\\Try\\AspCoreTry\\AspCoreTry.csproj",
         "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-        "outputPath": "E:\\AnnualTarget\\NewFramework\\MicroService\\Core\\AspCore\\Try\\AspCoreTry\\obj\\",
+        "outputPath": "e:\\AnnualTarget\\NewFramework\\MicroService\\Core\\AspCore\\Try\\AspCoreTry\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -60,6 +60,26 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Unity": {
+              "target": "Package",
+              "version": "[5.11.4, )"
+            },
+            "Unity.Configuration": {
+              "target": "Package",
+              "version": "[5.11.1, )"
+            },
+            "Unity.Interception": {
+              "target": "Package",
+              "version": "[5.11.1, )"
+            },
+            "Unity.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.11.4, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
             }
           },
           "imports": [
