@@ -11,3 +11,5 @@
 2020-03-13  选型IOC组件，范围netcore di,autofac,unity
 
 2020-03-14,15  选型前端
+
+2020-03-23  初步选择netCore DI，和EF Core
